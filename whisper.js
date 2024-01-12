@@ -13,9 +13,8 @@
 // Hint: endsWith and slice
 // */
 
-
-function whisper(str){
-return str.
+function whisper(str) {
+  return `shh... ${str.slice(0, -1).toLowerCase()}`;
 }
 
 console.log(whisper("PLEASE STOP SHOUTING."));
