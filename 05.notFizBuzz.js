@@ -21,6 +21,8 @@
 // Hint: Remainder operator, modulo
 //  */
 
-function awardBonuses() {}
+function awardBonuses() {
+  console.log("hello");
+}
 
 awardBonuses();
