@@ -27,7 +27,6 @@ function capitalizeWord(word) {
 function toTitleCase(str) {
   // split sentence into an array of words
   const sentenceArr = str.split(" ");
-  console.log(sentenceArr);
   // loop through the arrays of words and capitalizeWord func on each word
   const capArr = sentenceArr.map((word) => capitalizeWord(word));
   return capArr.join(" ");
