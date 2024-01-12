@@ -9,8 +9,8 @@
 // First, write a function that takes in one word and
 // capitalizes the first letter of that word.
 
-// Example Input: "scrimba"
-// Example Output: "Scrimba"
+// Example Input: "samson"
+// Example Output: "Samson"
 
 // Hint: Trying using slice() and .toUpperCase()
 // */
