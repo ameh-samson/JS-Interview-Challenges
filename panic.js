@@ -15,7 +15,7 @@
 // */
 
 function panic(str) {
-  return str.split(" ").join(" 😱 ") + "!";
+  return str.split(" ").join(" 😱 ").toUpperCase() + "!";
 }
 
 // Test your function
