@@ -1,6 +1,7 @@
 // /* Totally Not Another FizzBuzz
 
-// Scrimba CEO Per Borgen wants you to write a program to grant special bonuses to all his employees based on their employee ID numbers!
+// Scrimba CEO Per Borgen wants you to write a program to grant special bonuses to all his employees based
+// on their employee ID numbers!
 
 // Scrimba has 100 employees and their employee ID numbers range from 1 - 100. If the employee's ID number is:
 
@@ -22,7 +23,14 @@
 //  */
 
 function awardBonuses() {
-  console.log("hello");
+  // if employee ID is divisible by 3
+  //  Vacation!
+  // if employee ID is divisible by 5
+  // $100,000 bonus!
+  //  if employee ID is divisible by 3 and 5
+  // JACKPOT! 1 Million and a Yacht!
+  //  if employee ID is NOT divisible by 3 or 5
+  // :(
 }
 
 awardBonuses();
