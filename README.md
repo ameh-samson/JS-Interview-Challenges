@@ -1,4 +1,4 @@
-### Technical JavaScript Interview Challenges
+# Technical JavaScript Interview Challenges
 
 This contains series of technical JS questions you can come across as begineer in frontend development interviews
 
@@ -19,10 +19,12 @@ Q12: What are some issues with numbers in JavaScript you may have to protect aga
 Q13: What are Promises and why might you use them?
 Q14: What is pass by reference and how does it differ from pass by value?
 
-# Coding Challenges
+### Coding Challenges
 
 While attempting challenges,
 
 - use pseudo code
 - make use of console.log
 - look up things (google it)
+
+- 1 Write a panic function (details in the JS file with solution)
