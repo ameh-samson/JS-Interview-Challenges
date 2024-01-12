@@ -7,10 +7,14 @@
 // */
 
 function altCaps(str) {
+  //   split the word into an array
   let newStr = str.split("");
+
+  // loops through and capitalized the str in index of 2
   for (let i = 0; i < newStr.length; i += 2) {
     newStr[i] = newStr[i].toUpperCase();
   }
+  //   returns and join the string
   return newStr.join("");
 }
 
