@@ -23,14 +23,18 @@
 //  */
 
 function awardBonuses() {
-  // if employee ID is divisible by 3
-  //  Vacation!
-  // if employee ID is divisible by 5
-  // $100,000 bonus!
-  //  if employee ID is divisible by 3 and 5
-  // JACKPOT! 1 Million and a Yacht!
-  //  if employee ID is NOT divisible by 3 or 5
-  // :(
+  //  loop through 1 - 100
+  for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log(`${i} - JACKPOT! 1 Million and a Yacht!`);
+    } else if (i % 3 === 0) {
+      console.log(`${i} - Vacation!`);
+    } else if (i % 5 === 0) {
+      console.log(`${i} -  $100,000 bonus!`);
+    } else {
+      console.log(`${i} - :(`);
+    }
+  }
 }
 
 awardBonuses();
