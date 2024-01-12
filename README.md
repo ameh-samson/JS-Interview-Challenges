@@ -27,4 +27,4 @@ While attempting challenges,
 - make use of console.log
 - look up things (google it)
 
-- 1 Write a panic function (details in the JS file with solution)
+### 1. Write a panic function (details in the JS file with solution)
