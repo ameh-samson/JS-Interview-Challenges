@@ -25,20 +25,15 @@ const eggScrambleRecipe = [
 ];
 
 function removeDupesFromArray(arr) {
-  // create a new arr to hold unique items
-  // for each item in recipe arr
-  // if the item is NOT yet in the unique arr, push it in
-  // if it is in the unique arr, move on to the next item (do nothing)
-  // return the unique arr
-
-  const uniqueItems = [];
-
-  arr.forEach((item) => {
-    if (!uniqueItems.includes(item)) {
-      uniqueItems.push(item);
+  const uniqueItem = {};
+  const resultArr = [];
+  for (const item of arr) {
+    if (!uniqueItem[item]) {
+      uniqueItem[item] = true;
+      resultArr.push(item);
     }
-  });
-  return uniqueItems;
+  }
+  return resultArr;
 }
 
 console.log(removeDupesFromArray(eggScrambleRecipe));
