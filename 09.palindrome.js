@@ -14,12 +14,7 @@
 
 function isPalindrome(str) {
   const newStr = str.split("").reverse().join("");
-
-  if (str === newStr) {
-    return true;
-  } else {
-    return false;
-  }
+  return str === newStr;
 }
 
 // Test your function
