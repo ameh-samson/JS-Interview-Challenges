@@ -14,15 +14,21 @@
 
 const password = "9338dsabbbadjdjdj2sdfdfdf282ff8fdsd888ss8cfgfg332q23";
 
+// function removeDupeChars(str) {
+//   let pureStr = "";
+//   //  loope through the str and converts to array
+//   for (let char of str.split("")) {
+//     if (pureStr.indexOf(char) === -1) {
+//       pureStr += char;
+//     }
+//   }
+//   return pureStr;
+// }
+
+// or
+
 function removeDupeChars(str) {
-  let pureStr = "";
-  //  loope through the str and converts to array
-  for (let char of str.split("")) {
-    if (pureStr.indexOf(char) === -1) {
-      pureStr += char;
-    }
-  }
-  return pureStr;
+  return [...new Set(str)].join("");
 }
 
 console.log(removeDupeChars(password));
