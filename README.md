@@ -26,3 +26,5 @@ While attempting challenges,
 - use pseudo code
 - make use of console.log
 - look up things (google it)
+
+©Questions credit to https://scrimba.com
