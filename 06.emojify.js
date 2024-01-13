@@ -59,13 +59,12 @@ function emojifyWord(word) {
 
 function emojifyPhrase(phrase) {
   const newPhrase = phrase.split(" ").map((word) => emojifyWord(word));
-
   return newPhrase.join(" ");
 }
 
-// console.log(emojifyWord(":heart:"));
-// console.log(emojifyWord(":flower:"));
-// console.log(emojifyWord("elephant"));
+console.log(emojifyWord(":heart:"));
+console.log(emojifyWord(":flower:"));
+console.log(emojifyWord("elephant"));
 
 console.log(emojifyPhrase("I :heart: my :cat:"));
 console.log(emojifyPhrase("I :heart: my :elephant:"));
