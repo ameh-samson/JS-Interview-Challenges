@@ -25,8 +25,8 @@ const studentCount = [50, 53, 61, 67, 60, 70, 78, 80, 80, 81, 90, 110];
 
 // function sumArray(arr) {
 //   let sum = 0;
-//   arr.forEach((num) => {
-//     sum += num;
+//   arr.forEach((item) => {
+//     sum += item;
 //   });
 //   return sum;
 // }
