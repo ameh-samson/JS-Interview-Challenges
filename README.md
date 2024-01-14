@@ -27,4 +27,9 @@ While attempting challenges,
 - make use of console.log
 - look up things (google it)
 
+### Array methods
+
+- forEach(), map() and for... of are basically designed for looping through an array
+- for...in recommended for objects
+
 ©Questions credit to https://scrimba.com
