@@ -31,5 +31,6 @@ While attempting challenges,
 
 - forEach(), map() and for... of are basically designed for looping through an array
 - for...in recommended for objects
+- forEach() is used when you are not returning any array
 
 ©Questions credit to https://scrimba.com
