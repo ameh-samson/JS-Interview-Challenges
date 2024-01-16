@@ -33,4 +33,6 @@ While attempting challenges,
 - for...in recommended for objects
 - forEach() is used when you are not returning any array
 
+### Note that access to API in challenge 28 has been blocked
+
 ©Questions credit to https://scrimba.com
